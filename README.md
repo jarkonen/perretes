@@ -60,4 +60,3 @@ La API estará disponible en: `http://localhost:8080/perros`
 ```
 
 ---
-Desarrollado con ❤️ como proyecto de aprendizaje y portfolio.
