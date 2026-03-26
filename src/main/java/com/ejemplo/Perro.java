@@ -23,6 +23,12 @@ public class Perro {
         this.edad = edad;
     }
 
+    public Perro(String nombre, String raza, int edad) {
+        this.nombre = nombre;
+        this.raza = raza;
+        this.edad = edad;
+    }
+
     // Spring Data (Hibernate) necesita SIEMPRE un constructor vacío obligatorio
     // para poder "fabricar" los objetos Perro vacíos al leerlos de la BD
     public Perro() {
